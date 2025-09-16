@@ -2,6 +2,16 @@
 
 This project contains a series of tasks focused on network configuration and manipulation using Bash scripts. Each script demonstrates different aspects of network management and configuration on Ubuntu servers.
 
+## General Requirements
+- Allowed editors: `vi`, `vim`, `emacs`
+- All files will be interpreted on Ubuntu 22.04
+- All files should end with a new line
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- All Bash script files must be executable
+- Bash scripts must pass Shellcheck (version 0.7.0 via apt-get) without any errors
+- The first line of all Bash scripts should be exactly `#!/usr/bin/env bash`
+- The second line of all Bash scripts should be a comment explaining what the script does
+
 ## Tasks
 
 ### 0. Change your home IP
@@ -56,13 +66,7 @@ This script can be used for:
 - Verifying firewall rules
 - Basic network communication testing
 
-## Requirements
-- All scripts are tested on Ubuntu 20.04 LTS
-- All Bash scripts are exactly 3 lines long
-- All files end with a new line
-- All files must be executable
-- All files start with `#!/usr/bin/env bash`
-- Second line of all Bash scripts is a comment explaining what the script does
+
 
 ## Author
 Maxime
