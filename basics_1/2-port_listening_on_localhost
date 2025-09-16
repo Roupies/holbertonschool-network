@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Script that listens on port 98 on localhost
+
+# Using nc (netcat) to listen on port 98
+# -l : listen mode
+# -k : keep listening (don't close after client disconnects)
+nc -l 98
